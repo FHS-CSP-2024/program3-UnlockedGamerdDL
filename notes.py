@@ -8,6 +8,47 @@
 #* You will understand the difference between strings, integers and floating point numbers
 
 
+name = "Bob"
+Name = "Tvjbcbhje"
+print(Name + name)
+
+myString = "something"
+myInt = 100
+myFloat = 2.5
+
+#casting example
+print(myInt/2)
+myNewInt = "100"
+print(int(myNewInt)/2)
+
+num1 = input("Please enter a number ")
+
+print(int(num1) + int(num1))
+
+print("My int = " + str(myInt))
+
+thing = 500/6
+print(thing)
+print("My result is " + str(thing))
+print("My result is", thing)
+print(f"My result is {thing}") #fstring - {} are for variables
+
+
+print("First line\nSecond line\nThird line")
+print("List header")
+print("\t* Item1")
+print("\t* Item2")
+print("\t* Item3\n\t* Item4\n\t* Item5") #Star can make lists, looks neat for user
+
+#File path example
+#C:\Users\myname\Documents\OneNote Notebooks
+print("C:\\User\\mrJohnson\\Document\\OKDJflsjkdfalksd...") #2 backslashes makes 1, 4 makes 2, 6 makes 3
+
+
+
+
+
+
 
 ## Live Demo ##
 #
